@@ -25,8 +25,6 @@ The dataset includes various laptop specifications:
 - Display (inches, touchscreen)
 - Price
 
-> 📁 Raw and cleaned datasets are available in the `data/` directory.
-
 ---
 
 ## 📊 Exploratory Data Analysis (EDA)
@@ -64,8 +62,6 @@ An interactive dashboard was built using Power BI. Key features include:
 - Price distribution filters by Brand, RAM, OS, and processor
 - Slicers for OS, weight etc.
 
-> 📄 File: `Laptop_Price_Dashboard.pbix`
-
 ---
 
 ## 🤖 Machine Learning: Price Prediction
@@ -82,10 +78,6 @@ Multiple regression models were trained to predict prices from laptop specs.
 | 🧬 Lasso Regression    | 0.9655       | 9,310,000       | 3,052.38    |
 | 📉 Linear Regression   | 0.9655       | 17,697,352      | 4,206.82    |
 
-#### 📊 Visual Comparison
-
-![R² Score Comparison](r2_score_comparison.png)  
-![RMSE Comparison](rmse_comparison.png)
 
 #### 🧠 Model Insights
 
